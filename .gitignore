@@ -1,0 +1,11 @@
+Set-Content -Path .gitignore -Value @"
+.env
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.pyc
+chroma_db/
+flask_session/
+instance/
+*.log
+"@
